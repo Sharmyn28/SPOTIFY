@@ -1,0 +1,14 @@
+.playlist {
+  margin: 20px;
+  display: inline-flex;
+}
+
+.bienvenida {
+  padding-top: 20px;
+  background-image: linear-gradient(#495445, #070806 85%);
+  color: #fff;
+  height: 100%;
+}
+ 
+
+ /*# sourceMappingURL= home.css.map */
