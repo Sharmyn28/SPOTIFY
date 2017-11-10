@@ -8,6 +8,7 @@
   background-image: linear-gradient(rgb(73, 84, 69), rgb(7, 8, 6) 85%);
   color: #fff;
 }
+
 .main-nav li {
   display: inline-block;
 }
@@ -27,7 +28,6 @@
   color: #fff;
   background: #39add1;
 }
-
 .title{
   color: #fff;
 }

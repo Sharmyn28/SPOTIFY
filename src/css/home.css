@@ -1,0 +1,38 @@
+.playlist {
+  margin: 50px; }
+  .playlist img {
+    margin-left: 100px; }
+
+.bienvenida {
+  padding-top: 20px;
+  background-color: rgba(41, 58, 74, 0.5);
+  color: #fff;
+  height: 100%; }
+
+.main-nav li {
+  display: inline-block; }
+  .main-nav li .main-nav a {
+    font-size: 1em;
+    color: #a70707;
+    padding: .2em .8em;
+    border-radius: .25em;
+    background: #eaebeb;
+    transition: .2s;
+    margin-left: 10px;
+    text-decoration: none; }
+
+img {
+  background-color: #000000; }
+
+.main-nav a.active, .main-nav a:hover {
+  color: #fff;
+  background: #39add1; }
+
+.title {
+  text-decoration: none; }
+
+.titlemusic {
+  color: #ffffff;
+  margin-left: 40%; }
+
+/*# sourceMappingURL=home.css.map */
