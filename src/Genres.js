@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import {Redirect, NavLink} from 'react-router-dom';
 import {connect} from 'redux-zero/react'

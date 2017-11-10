@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'redux-zero/react';
 import { Redirect, NavLink } from 'react-router-dom';
 import './App.css';
+//import './news.css'
 
 
 const News = ({ playNews }) => {
@@ -9,10 +10,10 @@ const News = ({ playNews }) => {
         <div className="bienvenida text-center color">
             <header>
                 <ul className="main-nav">
-                    <li><NavLink to={"/feautures"} exact path="/">Featured</NavLink></li>
-                    <li><NavLink to={"/genres"}>Genres Music</NavLink></li>
+                    <li><NavLink to={"/feautures"} exact path="/">Feautures</NavLink></li>
+                    <li><NavLink to={"/genres"}>Genres music</NavLink></li>
                     <li><NavLink to={"/news"}>News</NavLink></li>
-                    <li><NavLink to={"/filtro"}>Discover</NavLink></li>     
+                    <li><NavLink to={"/filtro"}>Filtro</NavLink></li>
                 </ul>
             </header>
             <section>
