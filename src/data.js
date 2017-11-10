@@ -105,17 +105,17 @@ export const genresList = [
     },
     {
         id: 10,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/indie-274x274_add35b2b767ff7f3897262ad86809bdb_0_0_274_274.jpg",
         title:"Indie"
     },
     {
         id: 11,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/edm-274x274_0ef612604200a9c14995432994455a6d_0_0_274_274.jpg",
         title:"Electronic/Dance"
     },
     {
         id: 12,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/original/dinner_1b6506abba0ba52c54e6d695c8571078_274x274.jpg",
         title:"Dinner"
     }
 ]
