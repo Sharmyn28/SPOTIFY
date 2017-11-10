@@ -60,62 +60,62 @@ export const playList=[
 export const genresList = [
     {
         id: 1,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1fbb8e045491576e317cb16cdf_0_0_274_274.jpg",
         title:"Latin"
     },
     {
         id: 2,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/pop-274x274_447148649685019f5e2a03a39e78ba52_0_0_274_274.jpg",
         title:"Pop"
     },
     {
         id: 3,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/original/mood-274x274_976986a31ac8c49794cbdc7246fd5ad7_274x274.jpg",
         title:"Mood"
     },
     {
         id: 4,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/links/partyicon_274x274.jpg",
         title:"Party"
     },
     {
         id: 5,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/images/29f4c496fcff4817aeb8f80e8cad73c6.jpeg",
         title:"TeenZ"
     },
     {
         id: 6,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/original/genre-images-square-274x274_5e50d72b846a198fcd2ca9b3aef5f0c8_274x274.jpg",
         title:"Focus"
     },
     {
         id: 7,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/rock_9ce79e0a4ef901bbd10494f5b855d3cc_0_0_274_274.jpg",
         title:"Rock"
     },
     {
         id: 8,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/trending-274x274_7b238f7217985e79d3664f2734347b98_0_0_274_274.jpg",
         title:"Trending"
     },
     {
         id: 9,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/chill-274x274_4c46374f007813dd10b37e8d8fd35b4b_0_0_274_274.jpg",
         title:"Chill"
     },
     {
         id: 10,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/indie-274x274_add35b2b767ff7f3897262ad86809bdb_0_0_274_274.jpg",
         title:"Indie"
     },
     {
         id: 11,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/derived/edm-274x274_0ef612604200a9c14995432994455a6d_0_0_274_274.jpg",
         title:"Electronic/Dance"
     },
     {
         id: 12,
-        image: "https://t.scdn.co/media/derived/latin-274x274_befbbd1…_0_0_274_274.jpg",
+        image: "https://t.scdn.co/media/original/dinner_1b6506abba0ba52c54e6d695c8571078_274x274.jpg",
         title:"Dinner"
     }
 ]
