@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import {Redirect, NavLink} from 'react-router-dom';
 import {connect} from 'redux-zero/react'
 import './App.css';
+import "./css/_genres.css";
 
 const Info = () => { 
     return(
@@ -34,7 +35,7 @@ const Info = () => {
                   </div>
                   <div
                     className="cover-art-image cover-art-image-loaded"
-                    style={{backgroundImage: 'url("https://t.scdn.co/media/derived/latin-274x274_befbbd1fbb8e045491576e317cb16cdf_0_0_274_274.jpg")'}} />
+                    style={{ backgroundImage: 'url("https://t.scdn.co/media/derived/latin-274x274_befbbd1fbb8e045491576e317cb16cdf_0_0_274_274.jpg")'}} />
                 </div>
               </a>
             </div>
@@ -56,10 +57,9 @@ const Genres = ( {genresList}) =>  {
       <div className="bienvenida text-center">
       <header>
           <ul className="main-nav">
-            <li><NavLink to={"/feautures"} exact path="/">Featured</NavLink></li>
-            <li><NavLink to={"/genres"}>Genres Music</NavLink></li>
-            <li><NavLink to={"/news"}>News</NavLink></li>
-            <li><NavLink to={"/filtro"}>Discover</NavLink></li>          
+              <li><NavLink to={"/feautures"} exact path="/">Feautures</NavLink></li>
+              <li><NavLink to={"/genres"}>Genres Musica</NavLink></li> 
+              <li><NavLink to={"/filtro"}>Filtro</NavLink></li>       
           </ul>
       </header>
       {

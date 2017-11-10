@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,IAAI;EACA,UAAU,EAAE,gBAAgB",
+"sources": ["../scss/_genres.scss"],
+"names": [],
+"file": "_genres.css"
+}
