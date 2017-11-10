@@ -61,7 +61,7 @@ const Genres = ({ genresList }) => {
             <ul className="center-block text-center">
               <li><NavLink to={"/feautures"} exact path="/" className='nav__link'>Feautures</NavLink></li>
               <li><NavLink to={"/genres"}>Genres & moods</NavLink></li>
-              <li><NavLink to={"/filtro"} className='nav__link'>New Releases</NavLink></li>
+              <li><NavLink to={"/news"} className='nav__link'>New Releases</NavLink></li>
               <li><NavLink to={"/filtro"} className='nav__link'>Discover</NavLink></li>
             </ul>
           </nav>
