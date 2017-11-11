@@ -23,7 +23,7 @@ const News = ({ playNews }) => {
                         return (
                             <div key={index} className="playlist play">
                                 <div>
-                                    <img src={playNews.image}width="150" height="150" /> 
+                                    <img className="opacity"src={playNews.image}width="150" height="150" /> 
                                     <div>
                                         <audio src={playNews.audio} controls className="audio" ></audio> 
                                     </div>
