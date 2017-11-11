@@ -1,6 +1,25 @@
 .play {
   margin: 50px;
 }
+
+.init {
+  padding-top: 20px;
+  background-image: linear-gradient(#436181, #140806 45%);
+  color: #fff;
+}
+
+.audio {
+  width: 150px;
+}
+
+.title {
+  width: 150px;
+}
+
+.news {
+  margin-right: 510px;
+  margin-left: 510px;
+}
  
 
  /*# sourceMappingURL= news.css.map */

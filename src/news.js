@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { connect } from 'redux-zero/react';
 import { Redirect, NavLink } from 'react-router-dom';
 import './App.css';
-import './css/news.css'
+import './scss/news.css'
 
 
 const News = ({ playNews }) => {
     return (
-        <div className="inicio text-center color">
+        <div className="init text-center">
             <header>
                 <ul className="main-nav">
                     <li><NavLink to={"/feautures"} exact path="/">Feautures</NavLink></li>
@@ -16,8 +16,8 @@ const News = ({ playNews }) => {
                     <li><NavLink to={"/filtro"}>Filtro</NavLink></li>
                 </ul>
             </header>
-            <section>
-                <h1>Nuevos álbumes y sencillos</h1>
+            <section > 
+                <h1 className="news">Nuevos álbumes y sencillos</h1>
                 {
                     playNews.map((playNews, index) => {
                         return (
@@ -28,7 +28,7 @@ const News = ({ playNews }) => {
                                         <audio src={playNews.audio} controls className="audio" ></audio> 
                                     </div>
                                     
-                                <div>
+                                <div className="title">
                                     <h4>{playNews.title}</h4>
                                     <p>{playNews.artist}</p>
                                 </div>
